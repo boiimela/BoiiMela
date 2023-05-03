@@ -26,4 +26,8 @@
     <color name="private_account">#E6A326</color>
     <color name="security">#D95F69</color>
     <color name="yellow1">#DFD5AF</color>
+
+    <color name="star">#138FAA</color>
+    <color name="end">#169EBC</color>
+    <color name="top">#169EBC</color>
 </resources>

@@ -16,33 +16,35 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/primary"
+            android:background="@color/top"
             app:menu="@menu/navigation_menu"
-            app:showAsAction="always"/>
+            app:showAsAction="always" />
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="250dp"
+            android:layout_height="180dp"
             android:background="@color/primary"
             tools:ignore="UnknownId">
 
             <ImageView
                 android:id="@+id/imageView_profile_user"
                 android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_height="100dp"
                 android:layout_centerInParent="true"
-                android:background="@drawable/book1" />
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/icon" />
 
             <TextView
+                android:id="@+id/TextView_show_welcome"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/TextView_show_welcome"
                 android:layout_below="@+id/imageView_profile_user"
-                android:hint="Loading......"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="5dp"
+                android:hint="Loading......"
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-                android:textColor="@color/white"/>
+                android:textColor="@android:color/black" />
 
         </RelativeLayout>
     <LinearLayout
@@ -57,7 +59,7 @@
         android:radius="20dp">
 
         <RelativeLayout
-            android:layout_width="337dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_margin="15dp"
             android:background="@color/white"

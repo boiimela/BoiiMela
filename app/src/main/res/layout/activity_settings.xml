@@ -93,7 +93,7 @@
                         android:id="@+id/email_verify"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:background="#8998ee"
+                        android:background="@drawable/round_back_private_account"
                         android:padding="15dp"
                         android:src="@drawable/ic_email" />
 
@@ -293,7 +293,7 @@
                         android:layout_height="50dp"
                         android:background="@drawable/round_back_private_account"
                         android:padding="15dp"
-                        android:src="@drawable/email" />
+                        android:src="@drawable/ic_email" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -324,7 +324,7 @@
                         android:id="@+id/ChangePasssword"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:background="@drawable/round_back_night_mode"
+                        android:background="@drawable/round_back_security"
                         android:padding="15dp"
                         android:src="@drawable/lock3" />
 
